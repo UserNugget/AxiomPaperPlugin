@@ -26,6 +26,8 @@ repositories {
     maven("https://maven.playpro.com")
 }
 
+paperweight.reobfArtifactConfiguration = io.papermc.paperweight.userdev.ReobfArtifactConfiguration.MOJANG_PRODUCTION
+
 dependencies {
     paperweight.paperDevBundle(libs.versions.paper)
     implementation(libs.reflection.remapper)
